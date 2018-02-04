@@ -26,3 +26,4 @@ function removeElementFromEndOfArray(array){
   var newArray = array.slice(0, array.lenth - 1);
   return newArray
 }
+
