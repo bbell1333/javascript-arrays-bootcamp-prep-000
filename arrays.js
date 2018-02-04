@@ -17,3 +17,12 @@ function addElementToEndOfArray(array,element){
 function destructivelyAddElementToEndOfArray(array,element){
   return array.push(element);
 }
+
+function destructivelyRemvoeElementFromEndOfArray(array){
+  return array.pop();
+}
+
+function removeElementFromEndOfArray(array){
+  var newArray = array.slice(0, array.lenth - 1);
+  return newArray
+}
